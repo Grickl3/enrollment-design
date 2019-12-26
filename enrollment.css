@@ -150,6 +150,14 @@ body { margin: -5px; }
 		font-size: 3.5rem;
 	}
 
+	h3 {
+		font-family: 'Cormorant', Garamond, serif;
+		font-weight: 400;
+		color: #1a2744;
+		font-size: 2rem;
+		text-align: center;
+	}
+
 	h5 {
 		margin-top: -20px;
 		font-family: 'Montserrat', 'Helvetica Neue', Helvetica, sans-serif;
@@ -168,9 +176,13 @@ body { margin: -5px; }
 		line-height: 2.25rem;
 	}
 
-	.body-text p {
+	.body-text {
 		margin-left: 50%;
 		transform: translateX(-50%);
+	}
+
+	.text-center {
+		text-align: center;
 	}
 
 /* ======================== END TYPOGRAPHY =============== */
@@ -192,7 +204,13 @@ body { margin: -5px; }
 		background-color: rgba(255,255,255,.8);
 	}
 
+	.content-main {
+
+	}
+
 	.body-image {
+		margin-left: 50%;
+		transform: translateX(-50%);
 		max-width: 1080px; 
 	}
 
