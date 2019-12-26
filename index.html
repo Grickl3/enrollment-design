@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SQG OPT</title>
+	<meta charset="utf-8">
+	<meta name="description" content="A friendlier way to gather permission assets">
+
+	<link rel="stylesheet" type="text/css" href="enrollment.css">
+	<link href="https://fonts.googleapis.com/css?family=Cormorant:400,400i|Montserrat:300,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+	<nav>
+		<div class="nav__stuff">
+			<span class="nav__home nav__link-text">HOME</span>
+			<div class="nav__pages">
+				<span class="nav__link-text">ABOUT</span>
+				<span class="nav__link-text">CONTACT</span>
+			</div><!-- NAV PAGES -->
+		</div><!-- NAV STUFF -->
+	</nav>
+	<img class="hero-img" src="img/couch-coop-g.jpg" alt="neighbors shaking hands across a fence" nopin="nopin">
+
+	<div class="header-box">
+		<h1>Online Learning</h1>
+		<h5>For Evolutionary Changemakers</h5>
+		<p>Web developers have nearly universally accepted a cynical and mysanthropic pattern in embracing the involuntary pop-up as a means of permission asset gathering. In producing sqg-opt, I hope to demonstrate that this pattern can be challenged with superior design thinking to the end that site guests will feel more respected and — I believe — be more generous with their granting of permission assets.</p>
+	</div><!-- HEADER BOX -->
+
+	<!-- CTA STUFFS -->
+		<div id="cta-box" class="cta-box">
+			<span class="cta-copy">Hi, you're so cool!<br>Wanna sign up for this sweet course?<br>— comes with coffee and crumpets.</span>
+			<div class="small-space"></div>
+			<img id="cta-trigger" class="signup-icon" src="img/signup.svg" alt="sign up button">
+		</div><!-- CTA BOX -->
+
+
+		<div id="modal" class="hidden">
+			<div id="screen" class="screen"></div>
+			
+			<div class="modal-window">
+			<div id="closeX" class="close-x">
+				<div class="arm arm-1"></div>
+				<div class="arm arm-2"></div>
+			</div>
+				<p>Insert fun stuffs here for all of the signing&nbsp;up&nbsp;goodness.</p>
+			</div><!-- MODAL WINDOW -->
+		</div><!-- CTA MODAL -->
+
+	<!-- END SQG OPT -->
+
+	<p></p>
+
+	<img class="body-image" src="img/value-density.jpg" alt="value density diagram" nopin="nopin">
+
+	<img class="body-image" src="img/colors.jpg" alt="color chart of 2018 NRTH course" nopin="nopin">
+
+	<img class="body-image" src="img/contrast-on-gold.jpg" alt="gold color fails accessibility test" nopin="nopin">
+
+	
+	<img class="body-image" src="" alt="" nopin="nopin">
+	<!-- <img class="body-image" src="" alt="" nopin="nopin"> -->
+
+	<div class="large-space"></div>
+
+	<footer>
+		<a href="http://sqglz.com/" target="_blank"><img class="sqglz-logo" src="img/sqg-white.svg" alt="sqglz logo"></a>
+	</footer>
+
+	<script type="text/javascript">
+		
+		// sqgopt();
+
+		let ctaBox = document.getElementById("cta-box");
+		// let trigger1 = document.getElementById("trigger-box");
+		let trigger2 = document.getElementById("cta-trigger");
+		let postTrigger = document.getElementById("post-trigger");
+		let modal = document.getElementById("modal");
+		let closeX = document.getElementById("closeX");
+		let screen = document.getElementById("screen");
+
+
+		// const setTrigger = function() {
+		// 	ctaBox = ctaBox.getBoundingClientRect();
+		// 	trigger1.style.marginTop = ctaBox.top + "px";
+		// 	postTrigger.style.marginTop = "-" + ctaBox.top + "px";
+		// };
+
+		// setTrigger();
+
+		// window.addEventListener('scroll',function() {
+		// 	sqgoptFindCTA()
+		// });
+
+		// MODAL
+
+			// trigger1.addEventListener("click", function() {
+			// 	modal.classList.remove("hidden");
+			// });
+			trigger2.addEventListener("click", function() {
+				modal.classList.remove("hidden");
+			});
+			closeX.addEventListener("click", function() {
+				modal.classList.add("hidden");
+			});
+			screen.addEventListener("click", function() {
+				modal.classList.add("hidden");
+			});
+
+
+
+	</script>
+
+</body>
+</html>
