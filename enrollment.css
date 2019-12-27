@@ -176,6 +176,11 @@ body { margin: -5px; }
 		line-height: 2.25rem;
 	}
 
+
+	/*ul { 
+		margin-left: 3rem;
+	}*/
+
 	a { text-decoration: none; }
 	a:hover { text-decoration: underline; }
 
