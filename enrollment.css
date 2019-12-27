@@ -190,6 +190,10 @@ body { margin: -5px; }
 		transform: translateX(-50%);
 	}
 
+	strong {
+		font-weight: 700;
+	}
+
 	.section-heading {
 		margin-top: 4rem;
 		margin-bottom: 1rem;
