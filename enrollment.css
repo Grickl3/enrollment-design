@@ -176,6 +176,12 @@ body { margin: -5px; }
 		line-height: 2.25rem;
 	}
 
+	hr {
+		margin-top: 4rem;
+		margin-bottom: 4rem;
+		max-width: 26rem;
+	}
+
 	.body-text {
 		margin-left: 50%;
 		transform: translateX(-50%);
@@ -188,6 +194,8 @@ body { margin: -5px; }
 /* ======================== END TYPOGRAPHY =============== */
 
 /* ============================ LAYOUT GENERAL =========== */
+
+	.hidden { display: none; }
 
 	.hero-img {
 	margin-top: 48px;
@@ -244,4 +252,35 @@ body { margin: -5px; }
 	}
 
 /* ======================== END FOOTER =================== */
+
+/* ======================== MOBILE =================== */
+
+	.mobile {
+		position: fixed;
+		z-index: 33;
+		top: 0;
+		height: 150vh;
+		width: 100vw;
+		padding: 15rem 0;
+		background-color: white;
+		text-align: center;
+	}
+
+	.mobile-heading {
+		font-size: 8rem;
+	}
+
+	.mobile-text {
+		font-size: 4rem;
+		line-height: 5.5rem;
+		margin-left: 50%;
+		transform: translateX(-50%);
+	}
+
+/* ======================== END MOBILE =================== */
+
+
+
+
+
 
